@@ -27,7 +27,6 @@ layout: default
   </div>
 
   <div class="tags">
-    {{page.tags | capitalize | join: ', '}}
     <pre>tags: </pre>
     {% if post %}
     {% assign tags = post.tags %}
@@ -35,7 +34,7 @@ layout: default
     {% assign tags = page.tags %}
     {% endif %}
     {% for tag in tags %}
-    {{category}}
+    {{tag}}
     {% unless forloop.last %},&nbsp;{% endunless %}
     {% endfor %}
   </div>
