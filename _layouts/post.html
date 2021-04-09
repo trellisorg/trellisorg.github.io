@@ -30,7 +30,7 @@ layout: default
     {% assign tags = page.tags %}
     {% endif %}
     {% for tag in tags %}
-    <span class="tag">{{tag}}</span>
+    {{tag}}
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
   </div>
