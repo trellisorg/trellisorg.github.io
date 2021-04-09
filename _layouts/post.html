@@ -28,6 +28,16 @@ layout: default
 
   <div class="tags">
     {{page.tags | capitalize | join: ', '}}
+    <pre>tags: </pre>
+    {% if post %}
+    {% assign tags = post.tags %}
+    {% else %}
+    {% assign tags = page.tags %}
+    {% endif %}
+    {% for tag in tags %}
+    {{category}}
+    {% unless forloop.last %},&nbsp;{% endunless %}
+    {% endfor %}
   </div>
 
   {% include disqus.html %}
