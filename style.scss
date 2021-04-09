@@ -115,6 +115,13 @@ img {
   max-width: none;
 }
 
+.tags {
+  color: black;
+  font-style: italic;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
 .date {
   font-style: italic;
   color: $gray;
