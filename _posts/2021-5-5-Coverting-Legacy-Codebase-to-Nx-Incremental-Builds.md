@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: Why we did not need a service worker 
+title: Converting a Legacy Codebase to Nx Incremental Builds
 categories: angular nx compiler 
 tags: angular nx compiler
 ---
