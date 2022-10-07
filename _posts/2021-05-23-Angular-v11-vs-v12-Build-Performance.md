@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Comparing Angular v11 (Webpack 4) to Angular v12 (Webpack 5) build performance and size 
-categories: angular compiler webpack 
-tags: build performance bundle
+title: Comparing Angular v11 (Webpack 4) to Angular v12 (Webpack 5) build performance and size
+author: jay
+categories: [ angular, compiler, webpack ]
+tags: [ build, performance, bundle ]
+image: assets/images/17.jpg
+featured: true
 ---
 
 Recently Angular v12 was released, and with it Webpack 5 under the hood of the Angular CLI/Compiler. With it came a lot

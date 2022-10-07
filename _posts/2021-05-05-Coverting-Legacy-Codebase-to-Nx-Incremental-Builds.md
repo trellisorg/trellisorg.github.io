@@ -1,8 +1,11 @@
 ---
-layout: post 
+layout: post
 title: Converting a Legacy Codebase to Nx Incremental Builds
-categories: angular nx compiler 
-tags: angular nx compiler
+author: jay
+categories: [ angular, nx, compiler ]
+tags: [ angular, nx, compiler]
+featured: true
+image: assets/images/11.jpg
 ---
 
 We recently converted part of our legacy codebase over to use
@@ -121,7 +124,7 @@ Try: nx run app1:build --with-deps
 >  NX   ERROR  Running target "app1:build" failed
 
   Failed tasks:
-  
+
   - app1:build
 ```
 
@@ -135,14 +138,14 @@ pieces from your `index.ts` file:
 
 ```bash
 ERROR: libs/my-lib/src/lib/my-lib.component.ts:8:14 - error NG3001: Unsupported private class
- MyLibComponent. This class is visible to consumers via MyLibModule -> MyLibComponent, but is not exported from the 
+ MyLibComponent. This class is visible to consumers via MyLibModule -> MyLibComponent, but is not exported from the
  top-level library entrypoint.
 
 8 export class MyLibComponent implements OnInit {
                ~~~~~~~~~~~~~~~~~~
 
 libs/my-lib/src/lib/my-lib.component.ts:8:14 - error NG3001: Unsupported private class
-MyLibComponent. This class is visible to consumers via MyLibModule -> MyLibComponent, but is not exported from the 
+MyLibComponent. This class is visible to consumers via MyLibModule -> MyLibComponent, but is not exported from the
 top-level library entrypoint.
 
 8 export class MyLibComponent implements OnInit {
