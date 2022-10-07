@@ -5,7 +5,7 @@ author: jay
 categories: [ angular, nx, compiler ]
 tags: [ angular, nx, compiler]
 featured: true
-image: assets/images/11.jpg
+image: assets/images/1.jpeg
 ---
 
 We recently converted part of our legacy codebase over to use

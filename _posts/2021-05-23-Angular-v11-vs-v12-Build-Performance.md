@@ -4,7 +4,7 @@ title: Comparing Angular v11 (Webpack 4) to Angular v12 (Webpack 5) build perfor
 author: jay
 categories: [ angular, compiler, webpack ]
 tags: [ build, performance, bundle ]
-image: assets/images/17.jpg
+image: assets/images/2.jpeg
 featured: true
 ---
 
