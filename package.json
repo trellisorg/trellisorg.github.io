@@ -1,4 +1,7 @@
 {
+  "scripts": {
+	"start": "jekyll serve --watch"
+  },
   "devDependencies": {
     "prettier": "^2.7.1"
   }
